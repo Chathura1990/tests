@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Data Tables Page Test">
+    <test name="Data Tables Page Test">
+        <classes>
+            <class name="tests.DataTablesPageTest"/>
+        </classes>
+    </test>
+
+    <test name="Drag and Drop test">
+        <classes>
+            <class name="tests.DragDropPageTest"/>
+        </classes>
+    </test>
+</suite><!-- Suite 1 -->
