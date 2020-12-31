@@ -20,6 +20,7 @@ public class Browser {
                 ChromeOptions chromeOptions = new ChromeOptions();
                 chromeOptions.addArguments("headless");
                 chromeOptions.addArguments("--no-sandbox");
+                System.out.println(OS.toLowerCase());
                 if (OS.startsWith("windows")) {
                     System.setProperty("webdriver.chrome.driver", "src/test/resources/driver/chromedriver.exe");
                 }else if (OS.startsWith("linux"))
